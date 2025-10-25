@@ -1,0 +1,16 @@
+﻿__pycache__/
+*.pyc
+venv/
+.idea/
+*.pt
+*.onnx
+*.onnx_*
+Data/
+TestSet/
+TrainSet/
+*.wav
+*.png
+
+!classifier.onnx_12
+!models/wav2vec.onnx_12
+!models/*.pt
